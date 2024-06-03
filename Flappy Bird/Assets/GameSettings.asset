@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4cff563c0bb774594ae35b41524e90, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  playerAnimationSprites:
+  - {fileID: 21300000, guid: 4b4a57de377138e4e8369d8145550062, type: 3}
+  - {fileID: 21300000, guid: 47a1c54c1427e10458e1e21315a00666, type: 3}
+  - {fileID: 21300000, guid: 477a76ff29832b2499b9244de7070326, type: 3}
+  playerStrength: 3.57
+  playerGravity: -9.81
+  playerTilt: 5
+  playerAnimationSpeed: 0.15
+  playerAnimationDelay: 0.15
+  pipePrefab: {fileID: -5845766125972383839, guid: c1db09ac3ccffc742bbc907d839e8f3a, type: 3}
+  spawnRate: 1
+  spawnDelay: 6.92
+  minHeight: -1
+  maxHeight: 2
+  verticalGap: 3
+  pipeSpeed: 5
+  pipeGap: 3
+  targetFrameRate: 60
+  playerJumpKey: 32
+  backgroundScrollSpeed: 0.03
+  groundScrollSpeed: 1
+  scorePerPipe: 1
